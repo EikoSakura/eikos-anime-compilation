@@ -1,0 +1,150 @@
+{
+  "id": "eikos-anime-compilation",
+  "title": "Eiko's Anime Compilation",
+  "version": "0.0.1",
+  "manifest": "https://github.com/EikoSakura/eikos-anime-compilation/releases/latest/download/module.json",
+  "download": "https://github.com/EikoSakura/eikos-anime-compilation/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "description": "Eiko's anime compilation.",
+  "authors": [
+    {
+      "name": "Eiko Sakura",
+      "discord": "eikosakura",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/EikoSakura/EikosAnimeCompilation",
+  "packs": [
+    {
+      "name": "anime-actions",
+      "label": "Anime Actions",
+      "path": "packs/anime-actions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "anime-ancestries",
+      "label": "Anime Ancestries",
+      "path": "packs/anime-ancestries",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "anime-classes",
+      "label": "Anime Classes",
+      "path": "packs/anime-classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "anime-class-feats",
+      "label": "Anime Class Feats",
+      "path": "packs/anime-class-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "anime-features",
+      "label": "Anime Features",
+      "path": "packs/anime-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "anime-effects",
+      "label": "Anime Effects",
+      "path": "packs/anime-effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "anime-items",
+      "label": "Anime Items",
+      "path": "packs/anime-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "anime-journals",
+      "label": "Anime Journals",
+      "path": "packs/anime-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "eikos-anime-compilation": {
+      "pf2e-homebrew": {
+      "creatureTraits": {
+          "fanalis": {
+            "label": "Fanalis",
+            "description": "<p>This indicates abilities from the fanalis ancestry.</p>"
+          }
+      },
+        "featTraits": {
+          "fanalis": {
+            "label": "Fanalis",
+            "description":"<p>This indicates abilities from the fanalis ancestry.</p>",
+          "shinigami": {
+            "label": "Shinigami",
+            "description": "<p>This indicates abilities from the shinigami class.</p>",
+          "zanpakuto": {
+            "label": "Zanpakutō",
+            "description": "<p>Your zanpakutō is created and empowered by your soul. Abilities with this trait require you to be wielding your zanpakutō. If you are no longer holding your zanpakutō all abilities with this trait end immediately.</p>"
+          }
+        },
+        "weaponTraits": {
+          "zanpakuto": {
+            "label": "Zanpakutō",
+            "description": "<p>Your zanpakutō</p>"
+          }
+        }
+      }
+    }
+  }
+}
+}
+}
